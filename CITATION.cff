@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TwinDiverge"
+abstract: ""Attribute a twin-versus-reality residual to a parameter subset, and report which parameters are structurally unidentifiable from the supplied telemetry set BEFORE attributing anything to the rest. Baseline 1 local structural identifiability from sensitivity-matrix rank and conditioning with Fisher information and Cramer-Rao bounds per parameter, near-singular directions reported as identifiable parameter COMBINATIONS rather than individual parameters, practical identifiability separated from structural; baseline 2 first-order sensitivity attribution and generalised least squares on the identifiable subspace only with confidence regions; baseline 3 ground truth profile-likelihood per parameter, the reference the analytic covariance is scored against, with a flat profile overriding whatever the covariance claims. Learned residual-signature classifier mapping a residual time series to the responsible parameter subset, scored on accuracy at fixed computation budget AND separately on behaviour inside the unidentifiable subspace where the expected and most valuable result is that it returns a confident wrong attribution exactly where the analytic method correctly refuses to answer.""
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/twindiverge"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - digital-twins
